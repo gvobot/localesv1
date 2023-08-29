@@ -1,7 +1,7 @@
 {
     "command": {
         "error": "Oh no! An error occurred. Please try again or contact us through our server.",
-        "cooldown": "Please wait, you are on a cooldown for `{{commandName}}`. You can use it again <t:{{expiredTimestamp}}:R>."
+        "cooldown": "Please wait, you are on a cooldown for `{{commandName}}`. You can use it again <t:{{expiredTimestamp}}:R>"
     },
     "help": {
         "author": "{{bot_username}} | Help",
