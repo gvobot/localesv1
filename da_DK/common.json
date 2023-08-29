@@ -1,21 +1,21 @@
 {
     "command": {
-        "error": "Oh no! An error occurred. Please try again or contact us through our server.",
-        "cooldown": "Please wait, you are on a cooldown for `{{commandName}}`. You can use it again <t:{{expiredTimestamp}}:R>"
+        "error": "Åh nej! Der opstod en fejl. Prøv igen eller kontakt os via vores server.",
+        "cooldown": "Vent venligst, du er på en nedkøling for `{{commandName}}`. Du kan bruge det igen <t:{{expiredTimestamp}}:R>"
     },
     "help": {
-        "author": "{{bot_username}} | Help",
+        "author": "{{bot_username}} - Hjælp",
         "field1": {
-            "name": "Plans for GVO",
-            "value": "> We have a lot of plans for **{{bot_username}}** (GVO). These include a variety of modules, such as automatic quotes, channel statistics, welcome & goodbye system, and many more exciting features!"
+            "name": "Planer for GVO",
+            "value": "> Vi har mange planer for **{{bot_username}}** (GVO). Disse omfatter en række moduler, såsom automatiske citater, kanalstatistik, velkomst og farvel system og mange flere spændende funktioner!"
         },
         "field2": {
-            "name": "Statistics",
-            "value": "> **Servers:** `{{serverCount}}`\n> **Users:** `{{userCount}}`"
+            "name": "Statistikker",
+            "value": "> **Servere:** `{{serverCount}}`\n> **Brugere:** `{{userCount}}`"
         },
         "field3": {
             "name": "Links",
-            "value": "> [Invite GVO]({{inviteLink}}) and [Join our Support Server]({{discordLink}})\n> In case you want to support us, visit our [Ko-fi Page]({{kofiLink}})!"
+            "value": "> [Inviter GVO]({{inviteLink}}) og [Tilmeld dig vores supportserver]({{discordLink}})\n> Hvis du ønsker at støtte os, besøg vores [Ko-fi Side]({{kofiLink}})!"
         }
     }
 }
