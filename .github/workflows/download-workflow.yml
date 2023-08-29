@@ -1,7 +1,7 @@
-name: Crowdin Action - Download
+name: Crowdin Action
 
 on:
-  workflow-dispatch:
+  workflow_dispatch:
 
 jobs:
   crowdin:
