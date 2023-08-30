@@ -5,8 +5,8 @@
   },
   "help": {
     "base": {
-      "title": "About {{bot_username}}",
-      "description": "> We have a lot of plans for **{{bot_username}}** (GVO). These include a variety of modules, such as automatic quotes, channel statistics, welcome & goodbye system, and many more exciting features!\n\n> **Statistics:**\n> Servers: `{{serverCount}}`\n> Users: `{{userCount}}`\n\n> **Links:**\n> [Invite {{bot_username}}]({{inviteLink}}) and [Join our Support Server]({{discordLink}})\n> In case you want to support us, visit our [Ko-fi Page]({{kofiLink}})!"
+      "title": "{{bot_username}} | Help",
+      "description": "**About {{bot_username}}:**\n> We have a lot of plans for **{{bot_username}}** (GVO). These include a variety of modules, such as automatic quotes, channel statistics, welcome & goodbye system, and many more exciting features!\n\n**Usage:**\n> To use commands on the bot, you can utilize our slash commands. You can find these listed under the commands section within the help command.\n\n**Statistics:**\n> Servers: `{{serverCount}}`\n> Users: `{{userCount}}`\n\n**Links:**\n> [Invite {{bot_username}}]({{inviteLink}}) and [Join our Support Server]({{discordLink}})\n> In case you want to support us, visit our [Ko-fi Page]({{kofiLink}})!"
     },
     "language": {
       "title": "All Available Languages"
