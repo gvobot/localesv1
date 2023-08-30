@@ -4,18 +4,12 @@
         "cooldown": "Vent venligst, du er på en nedkøling for `{{commandName}}`. Du kan bruge det igen <t:{{expiredTimestamp}}:R>"
     },
     "help": {
-        "author": "{{bot_username}} - Hjælp",
-        "field1": {
-            "name": "Planer for GVO",
-            "value": "> Vi har mange planer for **{{bot_username}}** (GVO). Disse omfatter en række moduler, såsom automatiske citater, kanalstatistik, velkomst og farvel system og mange flere spændende funktioner!"
+        "base": {
+            "title": "{{bot_username}} - Hjælp",
+            "description": "**Om {{bot_username}}:**\n> Vi har en masse planer for **{{bot_username}}** (GVO). Disse omfatter en række moduler, såsom automatiske citater, kanalstatistik, velkomstsystem og mange flere spændende funktioner!\n\n**Anvendelse:**\n> For at bruge kommandoer på boten, kan du bruge vores skråstregskommandoer. Du kan finde disse listet under kommandosektionen inden for hjælpekommandoen.\n\n**Statistikker:**\n> Servere: `{{serverCount}}`\n> Brugere: `{{userCount}}`\n\n**Links:**\n> [Inviter {{bot_username}}]({{inviteLink}}) og [Tilmeld dig vores supportserver]({{discordLink}})\n> Hvis du ønsker at støtte os, besøg vores [Ko-fi Page]({{kofiLink}})!"
         },
-        "field2": {
-            "name": "Statistikker",
-            "value": "> **Servere:** `{{serverCount}}`\n> **Brugere:** `{{userCount}}`"
-        },
-        "field3": {
-            "name": "Links",
-            "value": "> [Inviter GVO]({{inviteLink}}) og [Tilmeld dig vores supportserver]({{discordLink}})\n> Hvis du ønsker at støtte os, besøg vores [Ko-fi Side]({{kofiLink}})!"
+        "language": {
+            "title": "Alle Tilgængelige Sprog"
         }
     }
 }
