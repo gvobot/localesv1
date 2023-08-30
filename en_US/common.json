@@ -1,8 +1,14 @@
 {
-    "command": {
-        "error": "Oh no! An error occurred. Please try again or contact us through our server.",
-        "cooldown": "Please wait, you are on a cooldown for `{{commandName}}`. You can use it again <t:{{expiredTimestamp}}:R>"
+  "command": {
+    "error": "Oh no! An error occurred. Please try again or contact us through our server.",
+    "cooldown": "Please wait, you are on a cooldown for `{{commandName}}`. You can use it again <t:{{expiredTimestamp}}:R>"
+  },
+  "help": {
+    "base": {
+      "title": "{{bot_username}} | Help",
+      "description": "**About {{bot_username}}:**\n> We have a lot of plans for **{{bot_username}}** (GVO). These include a variety of modules, such as automatic quotes, channel statistics, welcome & goodbye system, and many more exciting features!\n\n**Usage:**\n> To use commands on the bot, you can utilize our slash commands. You can find these listed under the commands section within the help command.\n\n**Statistics:**\n> Servers: `{{serverCount}}`\n> Users: `{{userCount}}`\n\n**Links:**\n> [Invite {{bot_username}}]({{inviteLink}}) and [Join our Support Server]({{discordLink}})\n> In case you want to support us, visit our [Ko-fi Page]({{kofiLink}})!"
     },
+<<<<<<< HEAD
     "help": {
         "base": {
             "title": "{{bot_username}} | Help",
@@ -11,5 +17,10 @@
         "language": {
             "title": "All Available Languages"
         }
+=======
+    "language": {
+      "title": "All Available Languages"
+>>>>>>> b18809d4d88f0b46b5c061e43d783e2ea0488c1e
     }
+  }
 }
