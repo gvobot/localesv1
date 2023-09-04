@@ -6,7 +6,7 @@
     "help": {
         "base": {
             "title": "{{bot_username}} - Hjælp",
-            "description": "**Om {{bot_username}}:**\n> Vi har en masse planer for **{{bot_username}}** (GVO). Disse omfatter en række moduler, såsom automatiske citater, kanalstatistik, velkomstsystem og mange flere spændende funktioner!\n\n**Anvendelse:**\n> For at bruge kommandoer på boten, kan du bruge vores skråstregskommandoer. Du kan finde disse listet under kommandosektionen inden for hjælpekommandoen.\n\n**Statistikker:**\n> Servere: `{{serverCount}}`\n> Brugere: `{{userCount}}`\n\n**Links:**\n> [Inviter {{bot_username}}]({{inviteLink}}) og [Tilmeld dig vores supportserver]({{discordLink}})\n> Hvis du ønsker at støtte os, besøg vores [Ko-fi Page]({{kofiLink}})!"
+            "description": "**Om {{bot_username}}:**\n> Vi har en masse planer for **{{bot_username}}** (GVO). Disse omfatter en række moduler, såsom automatiske citater, kanalstatistik, velkomstsystem og mange flere spændende funktioner!\n\n**Anvendelse:**\n> For at bruge kommandoer på boten, kan du bruge vores skråstregskommandoer. Du kan finde disse listet under kommandosektionen inden for hjælpekommandoen.\n\n**Statistikker:**\n> Servere: `{{serverCount}}`\n> Brugere: `{{userCount}}`"
         },
         "language": {
             "title": "Alle Tilgængelige Sprog"
