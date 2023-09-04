@@ -1,15 +1,15 @@
 {
     "command": {
-        "error": "Oh no! An error occurred. Please try again or contact us through our server.",
-        "cooldown": "Please wait, you are on a cooldown for `{{commandName}}`. You can use it again <t:{{expiredTimestamp}}:R>"
+        "error": "Åh nej! Der opstod en fejl. Prøv igen eller kontakt os via vores server.",
+        "cooldown": "Vent venligst, du er på en nedkøling for `{{commandName}}`. Du kan bruge det igen <t:{{expiredTimestamp}}:R>"
     },
     "help": {
         "base": {
-            "title": "{{bot_username}} | Help",
-            "description": "**About {{bot_username}}:**\n> We have a lot of plans for **{{bot_username}}**. These include a variety of modules, such as automatic quotes, channel statistics, welcome & goodbye system, and many more exciting features!\n\n**Usage:**\n> To use commands on the bot, you can utilize our slash commands. You can find these listed under the commands section within the help command.\n\n**Statistics:**\n> Servers: `{{serverCount}}`\n> Users: `{{userCount}}`"
+            "title": "{{bot_username}} - Hjælp",
+            "description": "**Om {{bot_username}}:**\n> Vi har en masse planer for **{{bot_username}}**. Disse omfatter en række moduler, såsom automatiske citater, kanalstatistik, velkomstsystem og mange flere spændende funktioner!\n\n**Anvendelse:**\n> For at bruge kommandoer på boten, kan du bruge vores skråstregskommandoer. Du kan finde disse listet under kommandosektionen inden for hjælpekommandoen.\n\n**Statistikker:**\n> Servere: `{{serverCount}}`\n> Brugere: `{{userCount}}`"
         },
         "language": {
-            "title": "All Available Languages"
+            "title": "Alle Tilgængelige Sprog"
         }
     }
 }
