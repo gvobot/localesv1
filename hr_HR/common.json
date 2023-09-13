@@ -11,5 +11,32 @@
         "language": {
             "title": "All Available Languages"
         }
+    },
+    "server_manager": {
+        "category": {
+            "create": {
+                "reason": "Created by {{username}} using {{bot_username}}'s category manager",
+                "success": "Successfully created **{{category_name}}** with `{{category_permissions}}` permissions",
+                "missing_permissions": "I am missing the `ManageChannels` permissions"
+            },
+            "edit": {
+                "reason": "Edited by {{username}} using {{bot_username}}'s category manager",
+                "success": "Successfully edited **{{category_name}}**",
+                "missing_permissions": "I am missing the `ManageChannels` permissions",
+                "category_not_found": "I could not find this category!"
+            },
+            "delete": {
+                "reason": "Deleted by {{username}} using {{bot_username}}'s category manager",
+                "success": "Successfully deleted **{{category_name}}**",
+                "missing_permissions": "I am missing the `ManageChannels` permissions",
+                "category_not_found": "I could not find this category!"
+            }
+        },
+        "channel": {
+            "reason": "Created by {{username}} using {{bot_username}}'s channel creator"
+        },
+        "role": {
+            "reason": "Created by {{username}} using {{bot_username}}'s role creator"
+        }
     }
 }
