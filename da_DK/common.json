@@ -1,42 +1,76 @@
 {
     "command": {
-        "error": "Oh no! An error occurred. Please try again or contact us through our server.",
-        "cooldown": "Please wait, you are on a cooldown for `{{commandName}}`. You can use it again <t:{{expiredTimestamp}}:R>"
+        "error": "Åh nej! Der opstod en fejl. Prøv igen eller kontakt os via vores server.",
+        "cooldown": "Vent venligst, du er på en nedkøling for `{{commandName}}`. Du kan bruge det igen <t:{{expiredTimestamp}}:R>"
     },
     "help": {
         "base": {
-            "title": "{{bot_username}} | Help",
-            "description": "**About {{bot_username}}:**\n> We have a lot of plans for **{{bot_username}}**. These include a variety of modules, such as automatic quotes, channel statistics, welcome & goodbye system, and many more exciting features!\n\n**Usage:**\n> To use commands on the bot, you can utilize our slash commands. You can find these listed under the commands section within the help command.\n\n**Statistics:**\n> Servers: `{{serverCount}}`\n> Users: `{{userCount}}`"
+            "title": "{{bot_username}} - Hjælp",
+            "description": "**Om {{bot_username}}:**\n> Vi har en masse planer for **{{bot_username}}**. Disse omfatter en række moduler, såsom automatiske citater, kanalstatistik, velkomstsystem og mange flere spændende funktioner!\n\n**Anvendelse:**\n> For at bruge kommandoer på boten, kan du bruge vores skråstregskommandoer. Du kan finde disse listet under kommandosektionen inden for hjælpekommandoen.\n\n**Statistikker:**\n> Servere: `{{serverCount}}`\n> Brugere: `{{userCount}}`"
         },
         "language": {
-            "title": "All Available Languages"
+            "title": "Alle Tilgængelige Sprog"
         }
     },
     "server_manager": {
         "category": {
             "create": {
-                "reason": "Created by {{username}} using {{bot_username}}'s category manager",
-                "success": "Successfully created **{{category_name}}** with `{{category_permissions}}` permissions",
-                "missing_permissions": "I am missing the `ManageChannels` permissions"
+                "reason": "Oprettet af {{username}} ved hjælp af {{bot_username}}'s kategori manager",
+                "success": "Oprettet med succes **{{category_name}}** med `{{category_permissions}}` tilladelser",
+                "missing_permissions": "Jeg mangler tilladelserne til 'ManageChannels'"
             },
             "edit": {
-                "reason": "Edited by {{username}} using {{bot_username}}'s category manager",
-                "success": "Successfully edited **{{category_name}}**",
-                "missing_permissions": "I am missing the `ManageChannels` permissions",
-                "category_not_found": "I could not find this category!"
+                "reason": "Redigeret af {{username}} ved hjælp af {{bot_username}}'s kategori manager",
+                "success": "Redigerede **{{category_name}}**",
+                "missing_permissions": "Jeg mangler tilladelserne til 'ManageChannels'",
+                "category_not_found": "Jeg kunne ikke finde denne kategori!"
             },
             "delete": {
-                "reason": "Deleted by {{username}} using {{bot_username}}'s category manager",
-                "success": "Successfully deleted **{{category_name}}**",
-                "missing_permissions": "I am missing the `ManageChannels` permissions",
-                "category_not_found": "I could not find this category!"
+                "reason": "Slettet af {{username}} ved hjælp af {{bot_username}}'s kategori manager",
+                "success": "**{{category_name}} ** slettet",
+                "missing_permissions": "Jeg mangler tilladelserne til 'ManageChannels'",
+                "category_not_found": "Jeg kunne ikke finde denne kategori!"
             }
         },
         "channel": {
-            "reason": "Created by {{username}} using {{bot_username}}'s channel creator"
+            "create": {
+                "reason": "Oprettet af {{username}} ved hjælp af {{bot_username}}'s kanal manager",
+                "success": "Oprettet med succes **{{channel_name}}** med `{{channel_permissions}}` tilladelser",
+                "missing_permissions": "Jeg mangler tilladelserne til 'ManageChannels'",
+                "invalid_category": "Denne kategori blev ikke fundet!"
+            },
+            "edit": {
+                "reason": "Redigeret af {{username}} ved hjælp af {{bot_username}}'s kanal manager",
+                "success": "Redigerede **{{channel_name}}**",
+                "missing_permissions": "Jeg mangler tilladelserne til 'ManageChannels'",
+                "channel_not_found": "Jeg kunne ikke finde denne kanal!"
+            },
+            "delete": {
+                "reason": "Slettet af {{username}} ved brug af {{bot_username}}'s kanal manager",
+                "success": "**{{channel_name}} ** slettet",
+                "missing_permissions": "Jeg mangler tilladelserne til 'ManageChannels'",
+                "channel_not_found": "Jeg kunne ikke finde denne kanal!"
+            }
         },
         "role": {
-            "reason": "Created by {{username}} using {{bot_username}}'s role creator"
+            "create": {
+                "reason": "Oprettet af {{username}} ved hjælp af {{bot_username}}'s rolle manager",
+                "success": "Oprettet med succes **{{role_name}}** med `{{role_permissions}}` tilladelser",
+                "missing_permissions": "Jeg mangler tilladelserne til 'ManageRoles'",
+                "invalid_role": "Denne rolle kunne ikke findes!"
+            },
+            "edit": {
+                "reason": "Redigeret af {{username}} ved hjælp af {{bot_username}}'s rolle manager",
+                "success": "Redigerede **{{role_name}}**",
+                "missing_permissions": "Jeg mangler tilladelserne til 'ManageRoles'",
+                "role_not_found": "Jeg kunne ikke finde denne rolle!"
+            },
+            "delete": {
+                "reason": "Slettet af {{username}} ved hjælp af {{bot_username}}'s rolle manager",
+                "success": "**{{role_name}} ** slettet",
+                "missing_permissions": "Jeg mangler tilladelserne til 'ManageRoles'",
+                "role_not_found": "Jeg kunne ikke finde denne rolle!"
+            }
         }
     }
 }
