@@ -33,10 +33,44 @@
             }
         },
         "channel": {
-            "reason": "Created by {{username}} using {{bot_username}}'s channel creator"
+            "create": {
+                "reason": "Created by {{username}} using {{bot_username}}'s channel manager",
+                "success": "Successfully created **{{channel_name}}** with `{{channel_permissions}}` permissions",
+                "missing_permissions": "I am missing the `ManageChannels` permissions",
+                "invalid_category": "This category could not be found!"
+            },
+            "edit": {
+                "reason": "Edited by {{username}} using {{bot_username}}'s channel manager",
+                "success": "Successfully edited **{{channel_name}}**",
+                "missing_permissions": "I am missing the `ManageChannels` permissions",
+                "channel_not_found": "I could not find this channel!"
+            },
+            "delete": {
+                "reason": "Deleted by {{username}} using {{bot_username}}'s channel manager",
+                "success": "Successfully deleted **{{channel_name}}**",
+                "missing_permissions": "I am missing the `ManageChannels` permissions",
+                "channel_not_found": "I could not find this channel!"
+            }
         },
         "role": {
-            "reason": "Created by {{username}} using {{bot_username}}'s role creator"
+            "create": {
+                "reason": "Created by {{username}} using {{bot_username}}'s role manager",
+                "success": "Successfully created **{{role_name}}** with `{{role_permissions}}` permissions",
+                "missing_permissions": "I am missing the `ManageRoles` permissions",
+                "invalid_role": "This role could not be found!"
+            },
+            "edit": {
+                "reason": "Edited by {{username}} using {{bot_username}}'s role manager",
+                "success": "Successfully edited **{{role_name}}**",
+                "missing_permissions": "I am missing the `ManageRoles` permissions",
+                "role_not_found": "I could not find this role!"
+            },
+            "delete": {
+                "reason": "Deleted by {{username}} using {{bot_username}}'s role manager",
+                "success": "Successfully deleted **{{role_name}}**",
+                "missing_permissions": "I am missing the `ManageRoles` permissions",
+                "role_not_found": "I could not find this role!"
+            }
         }
     }
 }
